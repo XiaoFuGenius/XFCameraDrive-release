@@ -18,9 +18,9 @@ FOUNDATION_EXPORT const unsigned char XFCameraDriveVersionString[];
 
 /**
  XFCameraDrive版本号
- 更新时间：2019.11.10 20:13
+ 更新时间：2019.11.18 13:28
  */
-#define XFCameraDrive_SDK_VERSION @"1.0.2"
+#define XFCameraDrive_SDK_VERSION @"1.0.3"
 
 #import "CTUVCHelper.h"
 
@@ -28,6 +28,7 @@ FOUNDATION_EXPORT const unsigned char XFCameraDriveVersionString[];
 /**
 XFCameraDrive Version History *
  
+ last update：2019.11.10 20:13   Version：1.0.2
  last update：2019.11.07 16:05   Version：1.0.1
  last update：2019.09.20 12:35   Version：1.0.0
 */
