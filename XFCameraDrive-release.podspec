@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
 
   s.homepage     		= "https://github.com/XiaoFuGenius/XFCameraDrive-release" 	# 你的主页
   s.source       		= { :git => "https://github.com/XiaoFuGenius/XFCameraDrive-release.git", :tag => "#{s.version}" } 	# 你的仓库地址
-  #s.source       = { :git => "", :tag => "#{s.version}" } 	# 你的仓库地址 for local
   s.requires_arc 		= true 	# 是否启用ARC
   s.platform     		= :ios, "8.0" 		#平台及支持的最低版本
   s.vendored_frameworks = "Frameworks/XFCameraDrive.framework" 	#第三方库依赖

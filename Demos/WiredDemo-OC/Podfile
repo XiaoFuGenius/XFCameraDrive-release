@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+
+    #source 'https://github.com/artsy/Specs.git'
+    source 'https://github.com/CocoaPods/Specs.git'
+    source 'https://github.com/XiaoFuGenius/xiaofu-specs.git'
+
+  platform :ios, '10.0'
+  target 'WiredDemo-OC' do
+
+    # Pods for WiredDemo-OC
+    # pod install --verbose --no-repo-update
+    # pod update --verbose --no-repo-update
+
+#    开发阶段，支持模拟器调试UI
+    pod 'CameraDrive-develop'
+    pod 'XFCameraDrive-develop'
+    pod 'XiaoFuTech-develop'
+
+#    发布阶段，不支持模拟器调试UI
+    #pod 'CameraDrive-release'
+    #pod 'XFCameraDrive-release'
+    #pod 'XiaoFuTech-release'
+
+end

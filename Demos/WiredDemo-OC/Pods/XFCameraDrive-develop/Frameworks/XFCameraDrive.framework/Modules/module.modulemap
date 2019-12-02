@@ -1,0 +1,6 @@
+framework module XFCameraDrive {
+  umbrella header "XFCameraDrive.h"
+
+  export *
+  module * { export * }
+}

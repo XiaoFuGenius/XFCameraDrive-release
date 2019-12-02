@@ -1,0 +1,26 @@
+PODS:
+  - CameraDrive-develop (1.0.19)
+  - XFCameraDrive-develop (1.0.3)
+  - XiaoFuTech-develop (1.0.13):
+    - XiaoFuTech-develop/RapidCodingTool (= 1.0.13)
+  - XiaoFuTech-develop/RapidCodingTool (1.0.13)
+
+DEPENDENCIES:
+  - CameraDrive-develop
+  - XFCameraDrive-develop
+  - XiaoFuTech-develop
+
+SPEC REPOS:
+  https://github.com/XiaoFuGenius/xiaofu-specs.git:
+    - CameraDrive-develop
+    - XFCameraDrive-develop
+    - XiaoFuTech-develop
+
+SPEC CHECKSUMS:
+  CameraDrive-develop: bc7b5fe0d35043904e208e7d83baadef29cb8db5
+  XFCameraDrive-develop: 755385b59841980a56aca53c48709d009eed67ef
+  XiaoFuTech-develop: d4c7030f2a737b5e5a54e9a1d0bd4f0282438d8e
+
+PODFILE CHECKSUM: 1f6468f6e2622c45229d893fa6b29807cba1b241
+
+COCOAPODS: 1.6.1

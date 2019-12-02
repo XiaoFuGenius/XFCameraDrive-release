@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4D579B7A493C1EDD6167D435F8EAE753 /* CameraDrive-develop */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3DDBA2DF803167BB71D6E78891C87E7B /* Build configuration list for PBXAggregateTarget "CameraDrive-develop" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "CameraDrive-develop";
+		};
+		B8F91B405E7A73A0D596CD0BF97A02F8 /* XFCameraDrive-develop */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C194EB8A4D626C41FD662AB68EBD3486 /* Build configuration list for PBXAggregateTarget "XFCameraDrive-develop" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "XFCameraDrive-develop";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		391D420BED0BFED51871F1B290D9B722 /* XiaoFuTech-develop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 089B470CD2CD616562D947B8729239E3 /* XiaoFuTech-develop-dummy.m */; };
+		B14A5CD78D60B3CBA9368F1DDD6C3253 /* XFRapidCodingTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5D759FDF80A92B2C825741000DD9D3 /* XFRapidCodingTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD7E81F62A07DBA38B954B4B358A063C /* XFRapidCodingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 136AFC4AB79867B6E2D759E5A82933C2 /* XFRapidCodingTool.m */; };
+		D6C9C595C74C81E73B1F46561D889D86 /* Pods-WiredDemo-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A873EA50C679916693277A1A3EF5DDA2 /* Pods-WiredDemo-OC-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AED1AC29807F432C6CD2D50B9E8892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8F91B405E7A73A0D596CD0BF97A02F8;
+			remoteInfo = "XFCameraDrive-develop";
+		};
+		9A7A11C67536DD9A462BE32BECADD7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90F4BF08AB99D582847681FEB0BEE352;
+			remoteInfo = "XiaoFuTech-develop";
+		};
+		F0CDFE78D9AF5D803AD74C2EAD3682DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D579B7A493C1EDD6167D435F8EAE753;
+			remoteInfo = "CameraDrive-develop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047277AC5FF400D8B75353ED4758634B /* CameraDrive-develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CameraDrive-develop.xcconfig"; sourceTree = "<group>"; };
+		089B470CD2CD616562D947B8729239E3 /* XiaoFuTech-develop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XiaoFuTech-develop-dummy.m"; sourceTree = "<group>"; };
+		0AD217E7C8DE974B43658B3366E5A0F8 /* XiaoFuTech-develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "XiaoFuTech-develop.xcconfig"; sourceTree = "<group>"; };
+		136AFC4AB79867B6E2D759E5A82933C2 /* XFRapidCodingTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFRapidCodingTool.m; path = CapacityExpansion/XFRapidCodingTool/XFRapidCodingTool.m; sourceTree = "<group>"; };
+		2A5D759FDF80A92B2C825741000DD9D3 /* XFRapidCodingTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFRapidCodingTool.h; path = CapacityExpansion/XFRapidCodingTool/XFRapidCodingTool.h; sourceTree = "<group>"; };
+		38626D87A8C930B1359F4EDD59BA0CCD /* Pods-WiredDemo-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WiredDemo-OC.release.xcconfig"; sourceTree = "<group>"; };
+		48DC7D2DF6831AB144F7305BDADA25C3 /* CameraDrive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CameraDrive.framework; path = Frameworks/CameraDrive.framework; sourceTree = "<group>"; };
+		5CDF6D31D2D334438843566FCEF98B02 /* Pods-WiredDemo-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WiredDemo-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		8FD37E1BE523A64908ACADD264825FFF /* libXiaoFuTech-develop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libXiaoFuTech-develop.a"; path = "libXiaoFuTech-develop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0BFB7EE621FC50A5BDF5D2523DD8FEA /* XiaoFuTech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XiaoFuTech.framework; path = Frameworks/XiaoFuTech.framework; sourceTree = "<group>"; };
+		A4CAD9358758B1EE859484B6599A7614 /* Pods-WiredDemo-OC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WiredDemo-OC-acknowledgements.plist"; sourceTree = "<group>"; };
+		A873EA50C679916693277A1A3EF5DDA2 /* Pods-WiredDemo-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WiredDemo-OC-dummy.m"; sourceTree = "<group>"; };
+		B9800C8390DEB0C52CCBEEA6CED71835 /* Pods-WiredDemo-OC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WiredDemo-OC-frameworks.sh"; sourceTree = "<group>"; };
+		C67A5EB4D393BC560C74BE1973732BE1 /* Pods-WiredDemo-OC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WiredDemo-OC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8C6C49234EEB741CA727941D3CF4000 /* XiaoFuTech-develop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoFuTech-develop-prefix.pch"; sourceTree = "<group>"; };
+		DC08DA39E62E8F6150C0F0F9EA02B1BC /* XFCameraDrive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XFCameraDrive.framework; path = Frameworks/XFCameraDrive.framework; sourceTree = "<group>"; };
+		E4ADB426D4B01D14535C07C004B46DDD /* libPods-WiredDemo-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WiredDemo-OC.a"; path = "libPods-WiredDemo-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FED627CC4F1F6B174A46293925B474 /* XFCameraDrive-develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "XFCameraDrive-develop.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3863AB8F006946420BD2460D3D5E18F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9684EAA8A8619C26D421DC3A47B70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094A5D065FE0A57999B527D0D27E6434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48DC7D2DF6831AB144F7305BDADA25C3 /* CameraDrive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24B31C9673229B74E236449E53F94CF4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFA324EBA729DE5551D4774CF995DA36 /* Pods-WiredDemo-OC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2ECF69484EA449B11C1629AC98831C60 /* RapidCodingTool */ = {
+			isa = PBXGroup;
+			children = (
+				2A5D759FDF80A92B2C825741000DD9D3 /* XFRapidCodingTool.h */,
+				136AFC4AB79867B6E2D759E5A82933C2 /* XFRapidCodingTool.m */,
+			);
+			name = RapidCodingTool;
+			sourceTree = "<group>";
+		};
+		396F57CF540EABB3B811CD7688F6E6BF /* XiaoFuTech-develop */ = {
+			isa = PBXGroup;
+			children = (
+				F9B66C861461EE7ED2A8410ABF87FF6B /* Frameworks */,
+				2ECF69484EA449B11C1629AC98831C60 /* RapidCodingTool */,
+				BF9E338E7A75477910B423FD91EC436C /* Support Files */,
+			);
+			name = "XiaoFuTech-develop";
+			path = "XiaoFuTech-develop";
+			sourceTree = "<group>";
+		};
+		50B0C276347DBD6DCE768A8734167372 /* CameraDrive-develop */ = {
+			isa = PBXGroup;
+			children = (
+				094A5D065FE0A57999B527D0D27E6434 /* Frameworks */,
+				BFB13D0E5AE895DD1E65A0C9EA65FC7D /* Support Files */,
+			);
+			name = "CameraDrive-develop";
+			path = "CameraDrive-develop";
+			sourceTree = "<group>";
+		};
+		5E5E29FB8F63C1BD80511BB4DB18431A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4ADB426D4B01D14535C07C004B46DDD /* libPods-WiredDemo-OC.a */,
+				8FD37E1BE523A64908ACADD264825FFF /* libXiaoFuTech-develop.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D87538D767B3B11F719C092AB3F9134 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50B0C276347DBD6DCE768A8734167372 /* CameraDrive-develop */,
+				A80EB02EAED633C5393486C7C8904F71 /* XFCameraDrive-develop */,
+				396F57CF540EABB3B811CD7688F6E6BF /* XiaoFuTech-develop */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F773856C21C90A4D9C7052FA3B98115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC08DA39E62E8F6150C0F0F9EA02B1BC /* XFCameraDrive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A80EB02EAED633C5393486C7C8904F71 /* XFCameraDrive-develop */ = {
+			isa = PBXGroup;
+			children = (
+				9F773856C21C90A4D9C7052FA3B98115 /* Frameworks */,
+				CBC6755088492F15A468D59532BFD745 /* Support Files */,
+			);
+			name = "XFCameraDrive-develop";
+			path = "XFCameraDrive-develop";
+			sourceTree = "<group>";
+		};
+		BF9E338E7A75477910B423FD91EC436C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AD217E7C8DE974B43658B3366E5A0F8 /* XiaoFuTech-develop.xcconfig */,
+				089B470CD2CD616562D947B8729239E3 /* XiaoFuTech-develop-dummy.m */,
+				D8C6C49234EEB741CA727941D3CF4000 /* XiaoFuTech-develop-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XiaoFuTech-develop";
+			sourceTree = "<group>";
+		};
+		BFB13D0E5AE895DD1E65A0C9EA65FC7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				047277AC5FF400D8B75353ED4758634B /* CameraDrive-develop.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CameraDrive-develop";
+			sourceTree = "<group>";
+		};
+		CBC6755088492F15A468D59532BFD745 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8FED627CC4F1F6B174A46293925B474 /* XFCameraDrive-develop.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XFCameraDrive-develop";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7D87538D767B3B11F719C092AB3F9134 /* Pods */,
+				5E5E29FB8F63C1BD80511BB4DB18431A /* Products */,
+				24B31C9673229B74E236449E53F94CF4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFA324EBA729DE5551D4774CF995DA36 /* Pods-WiredDemo-OC */ = {
+			isa = PBXGroup;
+			children = (
+				C67A5EB4D393BC560C74BE1973732BE1 /* Pods-WiredDemo-OC-acknowledgements.markdown */,
+				A4CAD9358758B1EE859484B6599A7614 /* Pods-WiredDemo-OC-acknowledgements.plist */,
+				A873EA50C679916693277A1A3EF5DDA2 /* Pods-WiredDemo-OC-dummy.m */,
+				B9800C8390DEB0C52CCBEEA6CED71835 /* Pods-WiredDemo-OC-frameworks.sh */,
+				5CDF6D31D2D334438843566FCEF98B02 /* Pods-WiredDemo-OC.debug.xcconfig */,
+				38626D87A8C930B1359F4EDD59BA0CCD /* Pods-WiredDemo-OC.release.xcconfig */,
+			);
+			name = "Pods-WiredDemo-OC";
+			path = "Target Support Files/Pods-WiredDemo-OC";
+			sourceTree = "<group>";
+		};
+		F9B66C861461EE7ED2A8410ABF87FF6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0BFB7EE621FC50A5BDF5D2523DD8FEA /* XiaoFuTech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F755823D1E733B3BB6305F315E21A62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14A5CD78D60B3CBA9368F1DDD6C3253 /* XFRapidCodingTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDC1D7E12A3AC4A5965D023AFBEBCD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34E4400F70865B38D792F42181A5318A /* Pods-WiredDemo-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A66ABF63500F5C33BB53962FDDD887 /* Build configuration list for PBXNativeTarget "Pods-WiredDemo-OC" */;
+			buildPhases = (
+				BEDC1D7E12A3AC4A5965D023AFBEBCD8 /* Headers */,
+				0C34300691CB41C3C0C3D7499495FA8A /* Sources */,
+				5D9684EAA8A8619C26D421DC3A47B70D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C0248E02031C6DFDC0D4F36B4FC430 /* PBXTargetDependency */,
+				47B2A8B4D127F98347451799144E21A6 /* PBXTargetDependency */,
+				01069EEDAEFD510F3F058D986DD3C40D /* PBXTargetDependency */,
+			);
+			name = "Pods-WiredDemo-OC";
+			productName = "Pods-WiredDemo-OC";
+			productReference = E4ADB426D4B01D14535C07C004B46DDD /* libPods-WiredDemo-OC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		90F4BF08AB99D582847681FEB0BEE352 /* XiaoFuTech-develop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8A8086269DB041ED14A1C681ADF0F9 /* Build configuration list for PBXNativeTarget "XiaoFuTech-develop" */;
+			buildPhases = (
+				2F755823D1E733B3BB6305F315E21A62 /* Headers */,
+				ACEBE20EA2AF0C7FF681F517965E7B5A /* Sources */,
+				3863AB8F006946420BD2460D3D5E18F6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XiaoFuTech-develop";
+			productName = "XiaoFuTech-develop";
+			productReference = 8FD37E1BE523A64908ACADD264825FFF /* libXiaoFuTech-develop.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5E5E29FB8F63C1BD80511BB4DB18431A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D579B7A493C1EDD6167D435F8EAE753 /* CameraDrive-develop */,
+				34E4400F70865B38D792F42181A5318A /* Pods-WiredDemo-OC */,
+				B8F91B405E7A73A0D596CD0BF97A02F8 /* XFCameraDrive-develop */,
+				90F4BF08AB99D582847681FEB0BEE352 /* XiaoFuTech-develop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C34300691CB41C3C0C3D7499495FA8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C9C595C74C81E73B1F46561D889D86 /* Pods-WiredDemo-OC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEBE20EA2AF0C7FF681F517965E7B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7E81F62A07DBA38B954B4B358A063C /* XFRapidCodingTool.m in Sources */,
+				391D420BED0BFED51871F1B290D9B722 /* XiaoFuTech-develop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01069EEDAEFD510F3F058D986DD3C40D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XiaoFuTech-develop";
+			target = 90F4BF08AB99D582847681FEB0BEE352 /* XiaoFuTech-develop */;
+			targetProxy = 9A7A11C67536DD9A462BE32BECADD7ED /* PBXContainerItemProxy */;
+		};
+		47B2A8B4D127F98347451799144E21A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XFCameraDrive-develop";
+			target = B8F91B405E7A73A0D596CD0BF97A02F8 /* XFCameraDrive-develop */;
+			targetProxy = 1AED1AC29807F432C6CD2D50B9E8892C /* PBXContainerItemProxy */;
+		};
+		75C0248E02031C6DFDC0D4F36B4FC430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CameraDrive-develop";
+			target = 4D579B7A493C1EDD6167D435F8EAE753 /* CameraDrive-develop */;
+			targetProxy = F0CDFE78D9AF5D803AD74C2EAD3682DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12FF204A07DAA041B169ADC8CAA2B442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD217E7C8DE974B43658B3366E5A0F8 /* XiaoFuTech-develop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XiaoFuTech-develop/XiaoFuTech-develop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XiaoFuTech_develop;
+				PRODUCT_NAME = "XiaoFuTech-develop";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		49C0C94CBC9DF63E00CE539450443584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38626D87A8C930B1359F4EDD59BA0CCD /* Pods-WiredDemo-OC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CF75E01F3311C16DD9A68616E4087D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD217E7C8DE974B43658B3366E5A0F8 /* XiaoFuTech-develop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XiaoFuTech-develop/XiaoFuTech-develop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XiaoFuTech_develop;
+				PRODUCT_NAME = "XiaoFuTech-develop";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8313CD34D811078119625E81BF136680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047277AC5FF400D8B75353ED4758634B /* CameraDrive-develop.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99660AFA5E7019AB9D2F682332EEA77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FED627CC4F1F6B174A46293925B474 /* XFCameraDrive-develop.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4C4FD879BA966B85E131421DF45AA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047277AC5FF400D8B75353ED4758634B /* CameraDrive-develop.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E63093787B2649A637C91E385F9AD25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDF6D31D2D334438843566FCEF98B02 /* Pods-WiredDemo-OC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD1F60551D5DC2CCF09A8223A8DB7EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FED627CC4F1F6B174A46293925B474 /* XFCameraDrive-develop.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8A8086269DB041ED14A1C681ADF0F9 /* Build configuration list for PBXNativeTarget "XiaoFuTech-develop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF75E01F3311C16DD9A68616E4087D2 /* Debug */,
+				12FF204A07DAA041B169ADC8CAA2B442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDBA2DF803167BB71D6E78891C87E7B /* Build configuration list for PBXAggregateTarget "CameraDrive-develop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8313CD34D811078119625E81BF136680 /* Debug */,
+				D4C4FD879BA966B85E131421DF45AA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A66ABF63500F5C33BB53962FDDD887 /* Build configuration list for PBXNativeTarget "Pods-WiredDemo-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63093787B2649A637C91E385F9AD25A /* Debug */,
+				49C0C94CBC9DF63E00CE539450443584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C194EB8A4D626C41FD662AB68EBD3486 /* Build configuration list for PBXAggregateTarget "XFCameraDrive-develop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99660AFA5E7019AB9D2F682332EEA77F /* Debug */,
+				FD1F60551D5DC2CCF09A8223A8DB7EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A3348332394F30D00D3ACB0 /* fw_10001.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6A3348322394F30D00D3ACB0 /* fw_10001.zip */; };
+		6A45851722C07BE200A50350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A45851622C07BE200A50350 /* Assets.xcassets */; };
+		6A45851D22C07BE200A50350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A45851C22C07BE200A50350 /* main.m */; };
+		6A45852522C07E0D00A50350 /* XFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A45852422C07E0D00A50350 /* XFAppDelegate.m */; };
+		6A45852822C07E4A00A50350 /* XFIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A45852722C07E4A00A50350 /* XFIndexViewController.m */; };
+		6A45852B22C07E7300A50350 /* XFCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A45852A22C07E7300A50350 /* XFCameraViewController.m */; };
+		6A45852E22C0814B00A50350 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A45853022C0814B00A50350 /* InfoPlist.strings */; };
+		6A566DBF22FD0C040059C0EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6A566DBE22FD0C040059C0EE /* README.md */; };
+		8ED11C4F895C18ABBE0C1919 /* libPods-WiredDemo-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF818D676160EEF8981D3BF /* libPods-WiredDemo-OC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A566F662302D0C70059C0EE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3161012752C06DC44C54984B /* Pods-WiredDemo-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiredDemo-OC.release.xcconfig"; path = "Target Support Files/Pods-WiredDemo-OC/Pods-WiredDemo-OC.release.xcconfig"; sourceTree = "<group>"; };
+		3CF818D676160EEF8981D3BF /* libPods-WiredDemo-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WiredDemo-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3348322394F30D00D3ACB0 /* fw_10001.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = fw_10001.zip; sourceTree = "<group>"; };
+		6A45850A22C07BE100A50350 /* WiredDemo-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WiredDemo-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A45851622C07BE200A50350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A45851B22C07BE200A50350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A45851C22C07BE200A50350 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A45852322C07E0D00A50350 /* XFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFAppDelegate.h; sourceTree = "<group>"; };
+		6A45852422C07E0D00A50350 /* XFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFAppDelegate.m; sourceTree = "<group>"; };
+		6A45852622C07E4A00A50350 /* XFIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFIndexViewController.h; sourceTree = "<group>"; };
+		6A45852722C07E4A00A50350 /* XFIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFIndexViewController.m; sourceTree = "<group>"; };
+		6A45852922C07E7300A50350 /* XFCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFCameraViewController.h; sourceTree = "<group>"; };
+		6A45852A22C07E7300A50350 /* XFCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFCameraViewController.m; sourceTree = "<group>"; };
+		6A45852F22C0814B00A50350 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A45853122C0824200A50350 /* XFPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFPrefixHeader.pch; sourceTree = "<group>"; };
+		6A566DBE22FD0C040059C0EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6A566DC623010A030059C0EE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FD49BE72F35F2065762D74CC /* Pods-WiredDemo-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiredDemo-OC.debug.xcconfig"; path = "Target Support Files/Pods-WiredDemo-OC/Pods-WiredDemo-OC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A45850722C07BE100A50350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED11C4F895C18ABBE0C1919 /* libPods-WiredDemo-OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E9178079D31FB37EFDFA3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD49BE72F35F2065762D74CC /* Pods-WiredDemo-OC.debug.xcconfig */,
+				3161012752C06DC44C54984B /* Pods-WiredDemo-OC.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A3348302394F2FE00D3ACB0 /* Firmware */ = {
+			isa = PBXGroup;
+			children = (
+				6A3348312394F30600D3ACB0 /* fw_10001 */,
+			);
+			path = Firmware;
+			sourceTree = "<group>";
+		};
+		6A3348312394F30600D3ACB0 /* fw_10001 */ = {
+			isa = PBXGroup;
+			children = (
+				6A3348322394F30D00D3ACB0 /* fw_10001.zip */,
+			);
+			path = fw_10001;
+			sourceTree = "<group>";
+		};
+		6A45850122C07BE100A50350 = {
+			isa = PBXGroup;
+			children = (
+				6A45850C22C07BE100A50350 /* WiredDemo-OC */,
+				6A45850B22C07BE100A50350 /* Products */,
+				B2AF6E8AA0F78C7772D8543D /* Frameworks */,
+				26E9178079D31FB37EFDFA3C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6A45850B22C07BE100A50350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A45850A22C07BE100A50350 /* WiredDemo-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A45850C22C07BE100A50350 /* WiredDemo-OC */ = {
+			isa = PBXGroup;
+			children = (
+				6A566DBE22FD0C040059C0EE /* README.md */,
+				6A45852322C07E0D00A50350 /* XFAppDelegate.h */,
+				6A45852422C07E0D00A50350 /* XFAppDelegate.m */,
+				6A45852622C07E4A00A50350 /* XFIndexViewController.h */,
+				6A45852722C07E4A00A50350 /* XFIndexViewController.m */,
+				6A45852922C07E7300A50350 /* XFCameraViewController.h */,
+				6A45852A22C07E7300A50350 /* XFCameraViewController.m */,
+				6A3348302394F2FE00D3ACB0 /* Firmware */,
+				6A45853022C0814B00A50350 /* InfoPlist.strings */,
+				6A45853122C0824200A50350 /* XFPrefixHeader.pch */,
+				6A45851622C07BE200A50350 /* Assets.xcassets */,
+				6A45851B22C07BE200A50350 /* Info.plist */,
+				6A45851C22C07BE200A50350 /* main.m */,
+			);
+			path = "WiredDemo-OC";
+			sourceTree = "<group>";
+		};
+		B2AF6E8AA0F78C7772D8543D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A566DC623010A030059C0EE /* libz.tbd */,
+				3CF818D676160EEF8981D3BF /* libPods-WiredDemo-OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A45850922C07BE100A50350 /* WiredDemo-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A45852022C07BE200A50350 /* Build configuration list for PBXNativeTarget "WiredDemo-OC" */;
+			buildPhases = (
+				5D9C4C13A098EC1B611D1E5D /* [CP] Check Pods Manifest.lock */,
+				6A45850622C07BE100A50350 /* Sources */,
+				6A45850722C07BE100A50350 /* Frameworks */,
+				6A45850822C07BE100A50350 /* Resources */,
+				E1B9D29B7E89D316058BF4FC /* [CP] Embed Pods Frameworks */,
+				6A566F662302D0C70059C0EE /* Embed Frameworks */,
+				6AEA3A432379278200229238 /* Remove Unused Architectures */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WiredDemo-OC";
+			productName = "WiredDemo-OC";
+			productReference = 6A45850A22C07BE100A50350 /* WiredDemo-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A45850222C07BE100A50350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = xiaofutech;
+				TargetAttributes = {
+					6A45850922C07BE100A50350 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HotspotConfiguration = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6A45850522C07BE100A50350 /* Build configuration list for PBXProject "WiredDemo-OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A45850122C07BE100A50350;
+			productRefGroup = 6A45850B22C07BE100A50350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A45850922C07BE100A50350 /* WiredDemo-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A45850822C07BE100A50350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A566DBF22FD0C040059C0EE /* README.md in Resources */,
+				6A45851722C07BE200A50350 /* Assets.xcassets in Resources */,
+				6A45852E22C0814B00A50350 /* InfoPlist.strings in Resources */,
+				6A3348332394F30D00D3ACB0 /* fw_10001.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D9C4C13A098EC1B611D1E5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiredDemo-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AEA3A432379278200229238 /* Remove Unused Architectures */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Remove Unused Architectures";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nsh ${PROJECT_DIR}/xfsh_remove_unused_architectures.sh\n";
+		};
+		E1B9D29B7E89D316058BF4FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WiredDemo-OC/Pods-WiredDemo-OC-frameworks.sh",
+				"${PODS_ROOT}/CameraDrive-develop/Frameworks/CameraDrive.framework",
+				"${PODS_ROOT}/XFCameraDrive-develop/Frameworks/XFCameraDrive.framework",
+				"${PODS_ROOT}/XiaoFuTech-develop/Frameworks/XiaoFuTech.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraDrive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XFCameraDrive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XiaoFuTech.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WiredDemo-OC/Pods-WiredDemo-OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A45850622C07BE100A50350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A45852522C07E0D00A50350 /* XFAppDelegate.m in Sources */,
+				6A45852B22C07E7300A50350 /* XFCameraViewController.m in Sources */,
+				6A45851D22C07BE200A50350 /* main.m in Sources */,
+				6A45852822C07E4A00A50350 /* XFIndexViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A45853022C0814B00A50350 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A45852F22C0814B00A50350 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A45851E22C07BE200A50350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A45851F22C07BE200A50350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A45852122C07BE200A50350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD49BE72F35F2065762D74CC /* Pods-WiredDemo-OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 788LBZT5RH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WiredDemo-OC",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiredDemo-OC/XFPrefixHeader.pch";
+				INFOPLIST_FILE = "WiredDemo-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaofutech.WiredDemo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		6A45852222C07BE200A50350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3161012752C06DC44C54984B /* Pods-WiredDemo-OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 788LBZT5RH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WiredDemo-OC",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiredDemo-OC/XFPrefixHeader.pch";
+				INFOPLIST_FILE = "WiredDemo-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaofutech.WiredDemo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A45850522C07BE100A50350 /* Build configuration list for PBXProject "WiredDemo-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A45851E22C07BE200A50350 /* Debug */,
+				6A45851F22C07BE200A50350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A45852022C07BE200A50350 /* Build configuration list for PBXNativeTarget "WiredDemo-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A45852122C07BE200A50350 /* Debug */,
+				6A45852222C07BE200A50350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A45850222C07BE100A50350 /* Project object */;
+}
